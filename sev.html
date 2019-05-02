@@ -1,0 +1,37 @@
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script>
+    function validation(){
+        var a= "boyka";
+        var pwd="NoChickenLegs";
+            if(document.myForm.pw.value!=pwd)
+                {
+                    
+                alert("incorrect username or password")
+                    return false;
+        }
+    }
+    </script>
+    </head>
+    
+    
+        <body>
+            <div>
+        <table align="center" width="400px" height="400px" >
+            <form action="link.php" method="post" name="myForm" onsubmit="return(validation())">
+                <tr ><th><img src='login.png'></th></tr>
+            <tr><th><input type="text" value="username"></th></tr>
+         <tr><th><input type="password" name="pw" value="username"></th></tr>
+                <tr><th><input type="submit" value="Login" on click></th></tr>
+            <tr><td><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"><img src="Reg.png" height ="100px" width="500px"  ></a></td></tr>
+            </form>
+            </table>
+           </div>
+    </body>
+    
+
+
+</html>
+
